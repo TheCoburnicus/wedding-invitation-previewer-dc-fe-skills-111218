@@ -1,0 +1,124 @@
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1521543269800-27e08780ced7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+  background-position:center;
+  background-position:center;
+  background-size:90%;
+  background-repeat: no-repeat;
+  background-color:gray;
+}
+
+.mainTitle {
+  text-align: center;
+  color:white;
+}
+
+.styleOptions {
+  position:fixed;
+  width: 50%;
+  text-align: center;
+  padding: 100px;
+  margin-left: 100px;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 100px;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+.column2 {
+  float: right;
+  width: 50%;
+  padding: 20px;
+  
+  border-style: dotted;
+  border-color: #D3D3D3;
+  margin-top: 50px;
+  margin-right: 150px;
+  margin-bottom: 25px;
+  
+  text-align:center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 50%;
+}
+.column2 {
+  flex: 50%;
+}
+
+
+//*.column1 {
+  position: fixed;
+  align-items: left;
+  left: 0px;
+  width: 300px;
+  padding: 25px;
+  margin-right: 25px;
+  margin-left: 75px;
+  
+  display: -webkit-flex;
+  display: flex;
+  justify-content: left;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: left;
+  align-content: left;
+  
+  grid-column: grid-column-start / grid-column-end;
+  
+  display: grid;
+  grid-auto-columns: 300px;
+  
+  //*box-sizing: border-box;
+  width: 50%;
+  border: 3px solid red;
+  float: left;
+}
+
+.column2 {
+  border-style: dotted;
+  border: 3px gray;
+}
+
+.column2 {  
+  position: fixed;
+  align-items: center;
+  left: 0px;
+  width: 300px;
+  padding: 25px;
+  margin-right: 25;
+  margin-left: 75;
+  
+  background-image: ;
+  
+  display: -webkit-flex;
+  display: flex;
+  justify-content: right;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: right;
+  align-content: right;
+  
+  display: column;
+  grid-auto-columns: 50px;
+  
+
+  box-sizing: border-box;
+  width: 50%;
+  border: 3px solid red;
+  float: right;*//
+}*//

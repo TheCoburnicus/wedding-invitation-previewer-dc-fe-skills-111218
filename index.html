@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="/index.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+ <body>
+  
+  <div class="mainTitle">
+    <h2>Wedding Invitation Designer</h2>
+  </div>
+
+  <div>
+   <div class="styleOptions">
+   <table>
+   <tr>
+     <th onclick="uno">Style Uno</th>
+     <th onclick="dos">Style Dos</th>
+     <th onclick="tres">Style Tres</th>
+   </tr> 
+   </table>
+  </div>
+  </div>
+  
+  <br>
+  
+  <div>
+  <div class="row">
+  <div class="column1">
+    <form action="/ACTION_PAGE.PHP" onsubmit="return validateForm()" method="get">
+    First Individual: <br><input type="text" name="fname"><br><br>
+    Second Individual: <br><input type="text" name="sname"><br><br>
+    Last Name: <br><input type="text" name="lname"><br><br>
+    Date: <br><input type="text" name="date"><br><br>
+    Wedding Location: <br><input type="text" name="location"><br>
+    </form>
+  </div>
+
+  <div class="column2">
+  <h1>Front Initials</h1><br>
+  <h3>[You are cordially invited to the wedding of]</h3>
+  <h2>'First Individual' & 'Second Individual'</h2><br>
+  <h1>"Last Name"</h1><br>
+  <h3>"Date"</h3>
+  <h2>"Wedding Location"</h2><br>
+
+</div>  
+</div>
+</div>
+  
+</body>
+</html>
